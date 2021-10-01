@@ -1,9 +1,7 @@
 <?php
 $search="";
 $r="";
-$conn=mysqli_connect("localhost","root","","crud")or die("connection aborted");
-
-	 
+$conn=mysqli_connect("localhost","root","","crud")or die("connection aborted"); 
    $search_val="";
    if(isset($_POST['search_btn']))
     {
