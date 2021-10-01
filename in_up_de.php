@@ -308,11 +308,7 @@ $result = mysqli_query($con,"SELECT * FROM stest");
 </form>
   <table>
   <tr>
-    <th>Student No</th>
-    <th>Student Name</th>
-    <th>Student Address</th>
-    <th>Student Mobile</th>
-    <th>Action</th>
+  
   </tr> 
   <?php while($row = mysqli_fetch_assoc($result))  {
    ?> 
